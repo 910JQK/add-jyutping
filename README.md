@@ -27,3 +27,6 @@ usage: jyutping.py [-h] [--top TOP] [--bottom BOTTOM] [--left LEFT]
 $ ./jyutping.py foobar.mp4 > foobar.srt
 ```
 
+## 這麽粗製濫造真的大丈夫？
+
+講真，為了學個廣東話去深入學習 OpenCV / Image Processing 實在是主次顛倒，所以就先這樣吧。而且最近不大想寫程式了，心累。
