@@ -2,7 +2,7 @@
 
 ## 簡介
 
-此 Python Script 可用於給 TVB 的電視節目增加粵拼字幕，目前尚在 Experimental 階段。開源授權條款寫在程式檔案中。
+此 Python Script 可用於給 TVB 的電視節目添加粵拼字幕，目前尚在 Experimental 階段。開源授權條款寫在程式檔案中。
 
 <img src="screenshot.png" />
 
@@ -19,7 +19,7 @@ usage: jyutping.py [-h] [--top TOP] [--bottom BOTTOM] [--left LEFT]
 ```
 其中 top, bottom, left, right 是包住字幕的矩形的邊界，若搞錯則得不到任何文字。默認的數字是以 1280×720 大小的影片為準的。
 
-運行後，程式會向 stderr 輸出進度資訊，併在 stdout 輸出 .srt 檔的內容，因此使用時請重定向 stdout 到檔案。
+運行後，程式會向 stderr 輸出有關處理進度的資訊，並在 stdout 輸出 .srt 檔的內容，因此使用時請重定向 stdout 到檔案。
 
 例如：
 
