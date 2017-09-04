@@ -8,7 +8,7 @@
 
 現在的效果一般，時間軸稍有偏差，OCR 有不少錯字，多音字也沒辦法處理。不過到這種程度就已經很有用了，借用一句名言就是「不滿意但可以接受」。
 
-圖形處理和 OCR 的部分，是由 OpenCV 和 pyocr 完成的。由於本人對這些方面並不太了解，所以這部分借用的是 kerrickstaley 的程式，原始碼見：[kerrickstaley/extracting-chinese-subs](https://github.com/kerrickstaley/extracting-chinese-subs)
+圖形處理和 OCR 的部分，是由 OpenCV 和 pyocr 完成的。由於本人對這些方面並不太了解，所以這部分借用的是 kerrickstaley 的程式，原程式見：[kerrickstaley/extracting-chinese-subs](https://github.com/kerrickstaley/extracting-chinese-subs)
 
 ## 使用方法
 
@@ -26,3 +26,4 @@ usage: jyutping.py [-h] [--top TOP] [--bottom BOTTOM] [--left LEFT]
 ```
 $ ./jyutping.py foobar.mp4 > foobar.srt
 ```
+
